@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "postinstall": "chmod +x ./node_modules/.bin/vite || true"
   },
   "dependencies": {
     "react": "^18.0.0",
@@ -19,7 +20,8 @@
     "@vitejs/plugin-react": "^4.4.1",
     "autoprefixer": "^10.0.0",
     "postcss": "^8.0.0",
+    "shx": "^0.4.0",
     "typescript": "^4.0.0",
-    "vite": "^4.5.13"
+    "vite": "^4.5.14"
   }
 }
