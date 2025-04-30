@@ -97,9 +97,9 @@ const How = () => {
             <p>Welcome to DefiNexus</p>
           </div>
         </a>
-        <a href="/refferal">
+        <a href="/contact">
           <div className="buttons">
-            <p>Referral System</p>
+            <p>Contact Us</p>
           </div>
         </a>
       </main>

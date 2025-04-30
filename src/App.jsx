@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Welcome from './components/Welcome';
 import How from './components/How';
-import FAQ from './components/Faq';
+import Contact from './components/Contact';
+import Utility from './components/Utility';
 const App = () => {
   return (
     <Router>
@@ -10,7 +11,8 @@ const App = () => {
         {/* Define routes for each page */}
         <Route path="/" element={<Welcome />} />
         <Route path="/howitworks" element={<How />} />
-        <Route path="/faq" element={<FAQ />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/utility" element={<Utility />} />
       </Routes>
     </Router>
   );

@@ -12,7 +12,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="nav">
+    <nav className={`nav ${isMenuOpen ? 'openNav' : ''}`}>
+
       {/* Hamburger Menu Button */}
       <i
         className="uil uil-bars navOpenBtn"
@@ -65,31 +66,19 @@ const Navbar = () => {
         <li>
           <NavLink
             className="navchi"
-            to="/refferal"
+            to="/utility"
             onClick={() => setIsMenuOpen(false)}
             style={({ isActive }) => ({
               color: isActive ? '#f51414' : 'inherit',
             })}
           >
-            Referral System
+            Utility & UseCase
           </NavLink>
         </li>
         <li>
           <NavLink
             className="navchi"
-            to="/faq"
-            onClick={() => setIsMenuOpen(false)}
-            style={({ isActive }) => ({
-              color: isActive ? '#f51414' : 'inherit',
-            })}
-          >
-            FAQ
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            className="navchi"
-            to="/contactus"
+            to="/contact"
             onClick={() => setIsMenuOpen(false)}
             style={({ isActive }) => ({
               color: isActive ? '#f51414' : 'inherit',

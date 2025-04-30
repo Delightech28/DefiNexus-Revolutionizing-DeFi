@@ -451,7 +451,12 @@ main {
    
 
   }
-
+  @media screen and (max-width: 810px) {
+    .navOpenBtn {
+      display: block;
+    }
+  }
+  
 
 /* Animation */
 @keyframes jump {
