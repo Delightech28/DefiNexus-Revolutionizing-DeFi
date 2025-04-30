@@ -83,12 +83,6 @@ const Faq = () => {
             </>
           ),
         },
-      ],
-    },
-    {
-      category: 'Platform Features',
-      icon: 'fas fa-layer-group',
-      faqs: [
         {
           question: 'What blockchains does DefiNexus support?',
           answer: (
