@@ -211,11 +211,11 @@ const Contact = () => {
           </div>
         </div>
 
-        <a href="/howitworks">
+        {/*   <a href="/howitworks">
           <div className="buttons">
             <p>How does it work</p>
           </div>
-        </a>
+        </a> */}
       </main>
 
       <footer
