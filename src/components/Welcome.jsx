@@ -98,11 +98,11 @@ const Welcome = () => {
           in DeFi activities with confidence!
         </p>
 
-        <a href="/howitworks">
+        {/*   <a href="/howitworks">
           <div className="buttons">
             <p>How it does work</p>
           </div>
-        </a>
+        </a> */}
       </main>
 
       {/* Footer */}
