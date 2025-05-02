@@ -116,7 +116,7 @@ const Utility = () => {
         ))}
 
         {/* Buttons */}
-        <a href="/">
+        {/*  <a href="/">
           <div className="buttons">
             <p>Welcome to DefiNexus</p>
           </div>
@@ -125,7 +125,7 @@ const Utility = () => {
           <div className="buttons">
             <p>Contact Us</p>
           </div>
-        </a>
+        </a>*/}
       </main>
 
       {/* Footer */}
